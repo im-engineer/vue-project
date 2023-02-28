@@ -1,22 +1,14 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- <Home data="Siddhant" msg="Singh"/> -->
-  <loop />
+  <Dashboard/>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import Home from './components/Home.vue'
-import loop from './components/loop.vue'
-
+import Dashboard from './components/Dashboard.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // Home,
-    loop
+    Dashboard
   }
 }
 </script>
